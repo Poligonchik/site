@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/custom.css">
+    <title>Темная тема | Резюме</title>
+    <style>
+      .lang-en { display: none; }
+
+      #language_toggle:checked ~ .content .lang-en {
+        display: block;
+      }
+      #language_toggle:checked ~ .content .lang-ru {
+        display: none;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="theme-container position-relative">
+
+      <input type="checkbox" id="language_toggle" class="d-none">
+      <label for="language_toggle" class="btn btn-dark position-absolute text-whit" style="top: 13%; left: 5%;">Переключить язык</label>
+
+      <input type="checkbox" id="dark_theme" class="d-none">
+      <label for="dark_theme" class="btn btn-dark position-absolute text-white" style="top: 10%; left: 5%;">
+        Темная тема
+      </label>
+
+      <!-- Основной контент -->
+      <div class="content">
+        <!-- Русская версия -->
+        <div class="lang-ru">
+          <section class="promo dark-bg pt-2 pb-5">
+            <div class="container">
+              <!-- Навигационная панель с логотипом и кнопками -->
+              <nav class="navbar navbar-expand-lg mb-5 navbar-dark">
+                <div class="container-fluid">
+                  <a href="#" class="navbar-brand logo d-flex align-items-center text-decoration-none">
+                    <div class="logo-left pe-2">
+                      <img src="../static/me.png" alt="Логотип" class="rounded-circle" width="100">
+                    </div>
+                    <div class="logo-right" style="margin-left: 6px;">
+                      <div class="logo-title link-purple">Знаете кто я??</div>
+                      <div class="logo-subtitle text-yellow">Умница и красавица <br> (так говорила моя бабушка)</div>
+                    </div>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavRU" aria-controls="navbarNavRU" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <!-- Меню навигации -->
+                  <div class="collapse navbar-collapse" id="navbarNavRU">
+                    <ul class="navbar-nav mx-auto">
+                      <li class="nav-item mx-3">
+                        <a href="#story-ru" class="nav-link link-purple link-border-bottom">Обо мне</a>
+                      </li>
+                      <li class="nav-item mx-3">
+                        <a href="#projects-ru" class="nav-link link-purple link-border-bottom">Мой жизненный опыт</a>
+                      </li>
+                      <li class="nav-item mx-3">
+                        <a href="#contact-ru" class="nav-link link-purple link-border-bottom">Коннект</a>
+                      </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                      <li class="nav-item mx-3">
+                        <a href="https://github.com" class="nav-link link-purple link-border-bottom" target="_blank">Github</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+              <!-- Блок приветствия с основной информацией -->
+              <div class="row py-0 py-sm-5">
+                <div class="col-12 col-lg-8 offset-lg-2 mb-0 mb-sm-5 py-5">
+                  <h1 class="h1 font-weight-bold font greeting-text text-blue">Привет! Спасибо, что зашел на мой сайтик</h1>
+                  <p class="promo-text pb-3">Я&nbsp;&mdash; студентка ФКН ВШЭ <br> Мечтаю приручить дракона и пройти на МОП</p>
+                  <a href="#contact-ru" class="btn text-center" style="background-color: #DCFF05; color: #102D69">Написать мне</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Секция "Обо мне" -->
+          <section class="story container py-5 text-center" id="story-ru">
+            <h2 class="h1 font-weight-bold mt-4 mb-3 mb-sm-5 pb-3 navigo-font">Я и моя жизнь</h2>
+            <div class="row">
+              <div class="col-12 col-sm-8 offset-sm-2 px-2 pb-5">
+                <p class="font-weight-bold pb-4">Меня зовут Полина. Я hse cs ami'27 без зависти! <br> Умею общаться с людьми и выведывать у них всякие приколы из их жизни.</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Секция опыта работы с темным фоном -->
+          <section class="projects dark-bg pt-3 pt-sm-5 pb-3" id="projects-ru">
+            <div class="container">
+              <h2 class="h1 font-weight-bold text-center mt-4 mt-sm-5 mb-0 mb-sm-4 pb-5 navigo-font">Мой жизненный опыт</h2>
+
+              <div class="work-experience text-white">
+                <div class="d-flex align-items-center mb-4">
+                  <img src="../static/01_Logo_HSE_full_rus_PANTONE_for_dark_2.png" alt="Логотип ВШЭ" class="me-3" style="height: 60px; margin-top: -6px;">
+                  <div class="d-flex flex-column justify-content-center">
+                    <h3 class="h4 mb-1">НИУ «ВШЭ»</h3>
+                    <p class="text-white-40 mb-0">Сентябрь 2022 – Настоящее время</p>
+                  </div>
+                </div>
+
+                <div class="position mb-4" style="margin-left: 20px;">
+                  <h4 class="h5 text-purple">Студентка</h4>
+                  <p class="text-white" style="opacity: 0.4">Сентябрь 2022 – настоящее время</p>
+                  <p>К сожалению, на этом опыт заканчивается, но я еще была репетитором.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Секция личных целей -->
+          <section class="goals container pt-3 pt-sm-5 pb-3">
+            <h2 class="h2 font-weight-bold my-4">Мои цели</h2>
+            <div class="row">
+              <div class="col-12 col-sm-8 pb-1">
+                <p class="pb-2">
+                  Посмотреть Аркейн <br> Пройти на МОП <br>Докупить новогодние подарки <br>Сдать сессию <br>
+                  Собрать новый компьютер, на котором можно будет обучать нейронки
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Секция сотрудничества -->
+          <section class="goals container mb-5 pb-sm-5 pb-0" id="contact-ru">
+            <h2 class="h2 font-weight-bold my-4">Коннект</h2>
+            <div class="row">
+              <div class="col-12 col-sm-8 pb-1">
+                <p class="pb-1 mb-1">Можете написать и со мной поболтать</p>
+                <!-- Блок с кнопками для связи -->
+                <div class="row">
+                  <div class="col-12 col-sm-9">
+                    <p class="d-flex justify-content-start gap-2 flex-wrap">
+                      <a href="https://t.me/poligonchiik" class="btn mb-3" style="background-color: #DCFF05; color: #102D69" target="_blank">Написать в Telegram</a>
+                      <a href="mailto:polinapetcat@gmail.com" class="btn mb-3" style="background-color: #DCFF05; color: #102D69" target="_blank">Написать на почту</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Подвал сайта с темным фоном -->
+          <footer class="footer dark-bg">
+            <nav class="container navbar">
+              <ul class="nav m-auto py-2">
+                <li class="nav-item mx-3">
+                  Сделано с любовью в 2024 году.
+                </li>
+              </ul>
+            </nav>
+          </footer>
+        </div>
+
+        <!-- Английская версия -->
+        <div class="lang-en">
+          <section class="promo dark-bg pt-2 pb-5">
+            <div class="container">
+              <!-- Навигационная панель с логотипом и кнопками -->
+              <nav class="navbar navbar-expand-lg mb-5 navbar-dark">
+                <div class="container-fluid">
+                  <a href="#" class="navbar-brand logo d-flex align-items-center text-decoration-none">
+                    <div class="logo-left pe-2">
+                      <img src="../static/me.png" alt="Logo" class="rounded-circle" width="100">
+                    </div>
+                    <div class="logo-right" style="margin-left: 6px;">
+                      <div class="logo-title link-purple">Do you know who I am??</div>
+                      <div class="logo-subtitle text-yellow">Smart and beautiful <br> (as my grandma used to say)</div>
+                    </div>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavEN" aria-controls="navbarNavEN" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <!-- Меню навигации -->
+                  <div class="collapse navbar-collapse" id="navbarNavEN">
+                    <ul class="navbar-nav mx-auto">
+                      <li class="nav-item mx-3">
+                        <a href="#story-en" class="nav-link link-purple link-border-bottom">About Me</a>
+                      </li>
+                      <li class="nav-item mx-3">
+                        <a href="#projects-en" class="nav-link link-purple link-border-bottom">My Life Experience</a>
+                      </li>
+                      <li class="nav-item mx-3">
+                        <a href="#contact-en" class="nav-link link-purple link-border-bottom">Connect</a>
+                      </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                      <li class="nav-item mx-3">
+                        <a href="https://github.com" class="nav-link link-purple link-border-bottom" target="_blank">Github</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+              <!-- Блок приветствия с основной информацией -->
+              <div class="row py-0 py-sm-5">
+                <div class="col-12 col-lg-8 offset-lg-2 mb-0 mb-sm-5 py-5">
+                  <h1 class="h1 font-weight-bold font greeting-text text-blue">Hello! Thanks for visiting my site</h1>
+                  <p class="promo-text pb-3">I&nbsp;&mdash; am a student of FCS HSE <br> Dreaming of train a dragon and MOOOOP</p>
+                  <a href="#contact-en" class="btn text-center" style="background-color: #DCFF05; color: #102D69">Contact Me</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Секция "About Me" -->
+          <section class="story container py-5 text-center" id="story-en">
+            <h2 class="h1 font-weight-bold mt-4 mb-3 mb-sm-5 pb-3 navigo-font">Me and My Life</h2>
+            <div class="row">
+              <div class="col-12 col-sm-8 offset-sm-2 px-2 pb-5">
+                <p class="font-weight-bold pb-4">My name is Polina. I am hse cs ami'27! <br> I know how to communicate with people and find out fun story about their lives.</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Секция опыта работы с темным фоном -->
+          <section class="projects dark-bg pt-3 pt-sm-5 pb-3" id="projects-en">
+            <div class="container">
+              <h2 class="h1 font-weight-bold text-center mt-4 mt-sm-5 mb-0 mb-sm-4 pb-5 navigo-font">My Life Experience</h2>
+
+              <div class="work-experience text-white">
+                <div class="d-flex align-items-center mb-4">
+                  <img src="../static/01_Logo_HSE_full_rus_PANTONE_for_dark_2.png" alt="HSE Logo" class="me-3" style="height: 60px; margin-top: -6px;">
+                  <div class="d-flex flex-column justify-content-center">
+                    <h3 class="h4 mb-1">HSE University</h3>
+                    <p class="text-white-40 mb-0">September 2022 – Present</p>
+                  </div>
+                </div>
+
+                <div class="position mb-4" style="margin-left: 20px;">
+                  <h4 class="h5 text-purple">Student</h4>
+                  <p class="text-white" style="opacity: 0.4">September 2022 – Present</p>
+                  <p>Unfortunately, my experience ends here</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Секция личных целей -->
+          <section class="goals container pt-3 pt-sm-5 pb-3">
+            <h2 class="h2 font-weight-bold my-4">My Goals</h2>
+            <div class="row">
+              <div class="col-12 col-sm-8 pb-1">
+                <p class="pb-2">Watch Arcane <br>MOOOOP <br> Buy New Year gifts <br> Pass the exams <br>
+                  Buy a new computer that can train neural networks
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Секция сотрудничества -->
+          <section class="goals container mb-5 pb-sm-5 pb-0" id="contact-en">
+            <h2 class="h2 font-weight-bold my-4">Connect</h2>
+            <div class="row">
+              <div class="col-12 col-sm-8 pb-1">
+                <p class="pb-1 mb-1">You can write to me and chat with me</p>
+                <!-- Блок с кнопками для связи -->
+                <div class="row">
+                  <div class="col-12 col-sm-9">
+                    <p class="d-flex justify-content-start gap-2 flex-wrap">
+                      <a href="https://t.me/poligonchiik" class="btn mb-3" style="background-color: #DCFF05; color: #102D69" target="_blank">Write on Telegram</a>
+                      <a href="mailto:polinapetcat@gmail.com" class="btn mb-3" style="background-color: #DCFF05; color: #102D69" target="_blank">Write to Email</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Подвал сайта с темным фоном -->
+          <footer class="footer dark-bg">
+            <nav class="container navbar">
+              <ul class="nav m-auto py-2">
+                <li class="nav-item mx-3">
+                  Made with love in 2024.
+                </li>
+              </ul>
+            </nav>
+          </footer>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
